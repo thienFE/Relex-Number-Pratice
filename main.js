@@ -39,6 +39,7 @@ const App = {
 
     speechData() {
         const synth = window.speechSynthesis
+        synth.paused = false
         const toSpeak = new SpeechSynthesisUtterance(this.number)
         synth.speak(toSpeak)
     },
