@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iNumber</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="app" style="width:100vw; height: 100vh">
+        <span class="home-button hiden">
+            <i class="fa-sharp fa-solid fa-house"></i>
+        </span>
+        <div class="app-1">
+            <img class="couple-kirby" src="./assets/couple-kirby.png" alt="">
+            <button class="start-button button">start</button>
+        </div>
+        <div class="app-2 hiden">
+            <div class="number-counter"></div>
+            <div class="answer-box">
+                <img src="./assets/kirby.png" alt="">
+                <div class="text-bubble">
+                    <h1></h1>
+                </div>
+            </div>
+            <div class="control-buttons">
+                <button class="repeat-button button disabled">repeat</button>
+                <button class="next-button button disabled">next</button>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
