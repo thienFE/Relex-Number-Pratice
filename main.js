@@ -40,6 +40,7 @@ const App = {
     speechData() {
         const synth = window.speechSynthesis
         const toSpeak = new SpeechSynthesisUtterance(this.number)
+        toSpeak.lang = "en-US"
         synth.speak(toSpeak)
     },
 
